@@ -40,10 +40,3 @@ for row in unique_row:
         unique_id.append(row)
     else:
         doublicate_id.append(row)
-
-
-for row in unique_id:
-    print(row)
-print()
-for row in doublicate_id:
-    print(row)
